@@ -18,7 +18,7 @@ public class LazySingleton {
         return lazySingletonObject;
     }
 
-    public static synchronized LazySingleton getInstanceSynchronized(){
+    public static synchronized LazySingleton getInstanceSynchronized(){ // not write choice for multithreaded application
         if(lazySingletonObject == null){
             lazySingletonObject = new LazySingleton();
         }

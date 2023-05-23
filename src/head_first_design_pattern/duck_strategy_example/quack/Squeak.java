@@ -1,4 +1,4 @@
-package head_first_design_pattern.duck_example.quack;
+package head_first_design_pattern.duck_strategy_example.quack;
 
 public class Squeak implements QuackBehavior {
 

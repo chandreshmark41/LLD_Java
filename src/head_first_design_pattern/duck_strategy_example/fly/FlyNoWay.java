@@ -1,4 +1,4 @@
-package head_first_design_pattern.duck_example.fly;
+package head_first_design_pattern.duck_strategy_example.fly;
 
 public class FlyNoWay implements FlyBehavior {
     @Override

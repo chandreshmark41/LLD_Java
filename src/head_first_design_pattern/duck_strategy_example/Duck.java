@@ -1,7 +1,7 @@
-package head_first_design_pattern.duck_example;
+package head_first_design_pattern.duck_strategy_example;
 
-import head_first_design_pattern.duck_example.fly.FlyBehavior;
-import head_first_design_pattern.duck_example.quack.QuackBehavior;
+import head_first_design_pattern.duck_strategy_example.fly.FlyBehavior;
+import head_first_design_pattern.duck_strategy_example.quack.QuackBehavior;
 
 public abstract class Duck {
 

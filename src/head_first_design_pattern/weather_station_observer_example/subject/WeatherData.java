@@ -1,6 +1,6 @@
 package head_first_design_pattern.weather_station_observer_example.subject;
 
-import head_first_design_pattern.weather_station_observer_example.Observer;
+import head_first_design_pattern.weather_station_observer_example.observers.Observer;
 
 import java.util.ArrayList;
 

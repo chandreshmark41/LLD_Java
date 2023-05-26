@@ -17,6 +17,7 @@ public class Tomato extends ToppingsDecorator{
 
     @Override
     public int toppingCost() {
+        System.out.println("Tomato : 35");
         return 35;
     }
 }

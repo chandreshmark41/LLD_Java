@@ -4,6 +4,8 @@ public class Paneer extends Pizza{
 
     @Override
     public int getCost() {
+        System.out.println("Paneer : 150");
+        System.out.println("-------Toppings--------");
         return 150;
     }
 }

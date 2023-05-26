@@ -11,6 +11,9 @@ public class Test {
     public static void main(String[] args) {
 
         Pizza myPizza = new Tomato(new Capsicum( new Cheese( new Paneer())));
-        System.out.println(myPizza.getCost());
+        int TotalCost = myPizza.getCost();
+        System.out.println("-------------------");
+
+        System.out.println("Total Cost : " + TotalCost);
     }
 }

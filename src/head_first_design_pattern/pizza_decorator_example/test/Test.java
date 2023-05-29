@@ -10,7 +10,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Pizza myPizza = new Tomato(new Capsicum( new Cheese( new Paneer())));
+        Pizza myPizza = new Tomato(new Capsicum( new Cheese( new Paneer() ) ) );
         int TotalCost = myPizza.getCost();
         System.out.println("-------------------");
 

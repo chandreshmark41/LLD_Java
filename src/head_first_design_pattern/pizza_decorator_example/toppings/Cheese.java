@@ -17,7 +17,6 @@ public class Cheese extends ToppingsDecorator{
 
     @Override
     public int toppingCost() {
-        System.out.println("Extra Cheese : 35");
         return 35;
     }
 }

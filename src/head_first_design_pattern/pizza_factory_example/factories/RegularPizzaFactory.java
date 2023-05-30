@@ -1,4 +1,4 @@
-package head_first_design_pattern.pizza_factory_example;
+package head_first_design_pattern.pizza_factory_example.factories;
 
 import head_first_design_pattern.pizza_factory_example.ingredients.capsicum.Capsicum;
 import head_first_design_pattern.pizza_factory_example.ingredients.capsicum.RegularCapsicum;

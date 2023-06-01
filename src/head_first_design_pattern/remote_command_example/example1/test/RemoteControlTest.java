@@ -1,8 +1,8 @@
-package head_first_design_pattern.remote_command_example.test;
+package head_first_design_pattern.remote_command_example.example1.test;
 
-import head_first_design_pattern.remote_command_example.Light;
-import head_first_design_pattern.remote_command_example.LightOnCommand;
-import head_first_design_pattern.remote_command_example.SimpleRemoteControl;
+import head_first_design_pattern.remote_command_example.example1.Light;
+import head_first_design_pattern.remote_command_example.example1.LightOnCommand;
+import head_first_design_pattern.remote_command_example.example1.SimpleRemoteControl;
 
 public class RemoteControlTest {
 

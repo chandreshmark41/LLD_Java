@@ -1,6 +1,6 @@
 package head_first_design_pattern.pizza_factory_example.pizza;
 
-import head_first_design_pattern.pizza_factory_example.PizzaFactory;
+import head_first_design_pattern.pizza_factory_example.factories.PizzaFactory;
 
 public class PaneerCapsicumPizza extends Pizza{
 

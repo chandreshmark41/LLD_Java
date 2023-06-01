@@ -1,7 +1,7 @@
 package head_first_design_pattern.pizza_factory_example.test;
 
-import head_first_design_pattern.pizza_factory_example.PizzaFactory;
-import head_first_design_pattern.pizza_factory_example.RegularPizzaFactory;
+import head_first_design_pattern.pizza_factory_example.factories.PizzaFactory;
+import head_first_design_pattern.pizza_factory_example.factories.RegularPizzaFactory;
 import head_first_design_pattern.pizza_factory_example.pizza.PaneerCapsicumPizza;
 import head_first_design_pattern.pizza_factory_example.pizza.Pizza;
 

@@ -20,20 +20,35 @@ public class RemoteLoader {
         LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
         LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
 
+        StereoOnWithCDCommand livingRoomStereoOn = new StereoOnWithCDCommand(livingRoomStereo);
+        StereoOffCommand livingRoomStereoOff = new StereoOffCommand(livingRoomStereo);
+
+        StereoOnWithCDCommand kitchenStereoOn = new StereoOnWithCDCommand(kitchenStereo);
+        StereoOffCommand kitchenStereoOff = new StereoOffCommand(kitchenStereo);
+
+        Command[] partyOn = {livingRoomLightOn, livingRoomStereoOn, kitchenLightOn, kitchenStereoOn};
+        Command[] partyOff = {livingRoomLightOff, livingRoomStereoOff, kitchenLightOff, kitchenStereoOff};
+
+        MacroCommand partyOnMacro = new MacroCommand(partyOn);
+        MacroCommand partyOfMacro = new MacroCommand(partyOff);
+
         remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
         remoteControl.setCommand(1,kitchenLightOn,kitchenLightOff);
+        remoteControl.setCommand(2, partyOnMacro, partyOfMacro);
 
-        System.out.println(remoteControl);
 
+//        remoteControl.onButtonWasPushed(0);
+//        remoteControl.offButtonWasPushed(0);
+//        remoteControl.undoButtonWasPushed();
+//        remoteControl.offButtonWasPushed(1);
+//        remoteControl.onButtonWasPushed(1);
+//        remoteControl.undoButtonWasPushed();
 
-        remoteControl.onButtonWasPushed(0);
-        remoteControl.offButtonWasPushed(0);
-        //System.out.println(remoteControl);
+        remoteControl.onButtonWasPushed(2);
+        remoteControl.offButtonWasPushed(2);
         remoteControl.undoButtonWasPushed();
-        remoteControl.offButtonWasPushed(1);
-        remoteControl.onButtonWasPushed(1);
-        //System.out.println(remoteControl);
-        remoteControl.undoButtonWasPushed();
+
+
 
     }
 }

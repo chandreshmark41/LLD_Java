@@ -1,9 +1,5 @@
 package head_first_design_pattern.remote_command_example.example2.receivers;
 
-import head_first_design_pattern.remote_command_example.example2.LightOffCommand;
-
-import java.util.List;
-
 public class Light {
 
     private String lightName;

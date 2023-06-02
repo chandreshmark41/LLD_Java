@@ -1,6 +1,6 @@
 package head_first_design_pattern.remote_command_example.example2;
 
-import head_first_design_pattern.remote_command_example.example2.LightOffCommand;
+import head_first_design_pattern.remote_command_example.example2.commands.*;
 import head_first_design_pattern.remote_command_example.example2.receivers.Light;
 import head_first_design_pattern.remote_command_example.example2.receivers.Stereo;
 

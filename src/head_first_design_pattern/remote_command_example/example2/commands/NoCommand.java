@@ -1,4 +1,4 @@
-package head_first_design_pattern.remote_command_example.example2;
+package head_first_design_pattern.remote_command_example.example2.commands;
 
 public class NoCommand implements Command{
     @Override

@@ -1,6 +1,7 @@
 package head_first_design_pattern.remote_command_example.example2;
 
-import java.rmi.Remote;
+import head_first_design_pattern.remote_command_example.example2.commands.Command;
+import head_first_design_pattern.remote_command_example.example2.commands.NoCommand;
 
 public class RemoteControl {
 

@@ -29,8 +29,7 @@ public class Test extends JFrame {
 
         CaffeineBeverage coffee = new Coffee();
         coffee.prepareRecipe();
-
-        Test testFrame = new Test("Head First Design Patterns");
+        Test testFrame = new Test("New Window");
 
     }
 }

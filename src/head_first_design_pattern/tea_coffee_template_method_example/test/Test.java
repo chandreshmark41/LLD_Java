@@ -2,6 +2,7 @@ package head_first_design_pattern.tea_coffee_template_method_example.test;
 
 import head_first_design_pattern.tea_coffee_template_method_example.CaffeineBeverage;
 import head_first_design_pattern.tea_coffee_template_method_example.Coffee;
+import head_first_design_pattern.tea_coffee_template_method_example.EnergyDrink;
 import head_first_design_pattern.tea_coffee_template_method_example.Tea;
 
 import javax.swing.*;
@@ -29,6 +30,9 @@ public class Test extends JFrame {
 
         CaffeineBeverage coffee = new Coffee();
         coffee.prepareRecipe();
+
+        CaffeineBeverage energyDrink = new EnergyDrink();
+        energyDrink.prepareRecipe();
         Test testFrame = new Test("New Window");
 
     }

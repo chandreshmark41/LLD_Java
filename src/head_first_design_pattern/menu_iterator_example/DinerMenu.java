@@ -1,6 +1,6 @@
 package head_first_design_pattern.menu_iterator_example;
 
-public class DinerMenu {
+public class DinerMenu implements Menu {
 
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;

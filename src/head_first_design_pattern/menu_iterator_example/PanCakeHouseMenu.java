@@ -3,7 +3,7 @@ package head_first_design_pattern.menu_iterator_example;
 import java.awt.*;
 import java.util.ArrayList;
 
-public class PanCakeHouseMenu {
+public class PanCakeHouseMenu implements Menu{
     ArrayList menuItems;
 
     public PanCakeHouseMenu() {

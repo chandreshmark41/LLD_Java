@@ -1,10 +1,10 @@
 package head_first_design_pattern.menu_iterator_example;
 
 public class Waitress {
-    PanCakeHouseMenu panCakeHouseMenu;
-    DinerMenu dinerMenu;
+    Menu panCakeHouseMenu;
+    Menu dinerMenu;
 
-    public Waitress(PanCakeHouseMenu panCakeHouseMenu, DinerMenu dinerMenu) {
+    public Waitress(Menu panCakeHouseMenu, Menu dinerMenu) {
         this.panCakeHouseMenu = panCakeHouseMenu;
         this.dinerMenu = dinerMenu;
     }

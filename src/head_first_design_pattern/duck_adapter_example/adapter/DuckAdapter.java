@@ -13,7 +13,6 @@ public class DuckAdapter implements Turkey {
     @Override
     public void gobble() {
         duck.quack();
-
     }
 
     @Override

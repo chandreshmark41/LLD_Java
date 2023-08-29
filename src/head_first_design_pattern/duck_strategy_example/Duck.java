@@ -4,16 +4,14 @@ import head_first_design_pattern.duck_strategy_example.fly.FlyBehavior;
 import head_first_design_pattern.duck_strategy_example.quack.QuackBehavior;
 
 public abstract class Duck {
-
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
-    public Duck(){
+    public Duck()
+    {
 
     }
-
     public abstract void display();
-
     public void performFly(){
         flyBehavior.fly();
     }
@@ -32,5 +30,4 @@ public abstract class Duck {
     public void setQuackBehavior(QuackBehavior quackBehavior){
         this.quackBehavior = quackBehavior;
     }
-
 }

@@ -20,6 +20,5 @@ public class TurkeyAdapter implements Duck {
         for (int i = 0; i<5; i++) { // Turkey flies short distance so it would need to call fly five times
             turkey.fly();
         }
-
     }
 }
